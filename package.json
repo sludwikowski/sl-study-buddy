@@ -18,7 +18,7 @@
     "eject": "react-scripts eject"
   },
   "lint-staged": {
-    "src/**/*.{js,jsx,json}": [
+    "src/**/*.{js,json}": [
       "prettier --write"
     ]
   },
@@ -27,7 +27,6 @@
       "pre-commit": "lint-staged"
     }
   },
-
   "browserslist": {
     "production": [
       ">0.2%",
