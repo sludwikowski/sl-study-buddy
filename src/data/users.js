@@ -27,5 +27,6 @@ export const users = [
   {
     name: 'Paweł Andrzejewski',
     attendance: '0%',
+    average: '2.0',
   },
 ];
