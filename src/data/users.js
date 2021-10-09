@@ -17,7 +17,7 @@ export const users = [
   {
     name: 'Olga Hahn',
     attendance: '56%',
-    average: '4.1',
+    average: '3.5',
   },
   {
     name: 'Ewelina Palak',
