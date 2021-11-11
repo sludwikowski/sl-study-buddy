@@ -3,7 +3,6 @@ import { ArticleWrapper, ContentWrapper, NewsSectionHeader, TitleWrapper, Wrappe
 import { Button } from 'components/atoms/Button/Button';
 import axios from 'axios';
 
-const REACT_APP_DATOCMS_TOKEN = '65b126280309d311d924177f988785';
 export const query = `
          {
           allArticles {
@@ -31,7 +30,7 @@ const NewsSection = () => {
         },
         {
           headers: {
-            authorization: `Bearer ${REACT_APP_DATOCMS_TOKEN}`,
+            authorization: `Bearer ${process.env.REACT_APP_DATOCMS_TOKEN}`,
           },
         }
       )
