@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { ArticleWrapper, ContentWrapper, NewsSectionHeader, TitleWrapper, Wrapper } from 'components/templates/NewsSection/NewsSection.styles';
 import { Button } from 'components/atoms/Button/Button';
 import axios from 'axios';
-
 const REACT_APP_DATOCMS_TOKEN = '65b126280309d311d924177f988785';
 export const query = `
          {
