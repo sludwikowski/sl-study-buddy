@@ -1,7 +1,7 @@
 export const students = [
   {
     id: '1',
-    name: 'Adam Romański',
+    name: 'Szymon Ludwikowski',
     attendance: '39%',
     average: '2.3',
     group: 'A',
